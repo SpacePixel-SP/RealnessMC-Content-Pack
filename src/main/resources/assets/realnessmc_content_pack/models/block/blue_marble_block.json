@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "realnessmc_content_pack:block/blue_marble"
+  }
+}

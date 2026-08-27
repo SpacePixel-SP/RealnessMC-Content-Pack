@@ -2,7 +2,18 @@ Temporary Changelog for version 0.2.0-dev
 
 Additions:
 
+    - Added More Marble Variations:
+        - Blue Marble
+        - TODO: Red Marble
+    - TODO: Added a new Scene to the Marble Ponder to Include new Variants
+
 Fixes:
+
+
+
+Reworks:
+
+
 
 Removals:
 

@@ -9,7 +9,24 @@ version = mod_version
 group = mod_group_id
 
 repositories {
+
+    /*maven {
+        name = "Modrinth"
+        url = "https://modrinth.com"
+        content {
+            includeGroup "maven.modrinth"
+        }
+    }
+
+    maven {
+        name = "Jitpack"
+        url 'https://jitpack.io'
+    }
+    */
+
+
     mavenLocal()
+
 
     mavenCentral()
     // Add this line below to let Gradle download the Ponder binaries:
@@ -106,6 +123,8 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 dependencies {
     // Correct naming convention for version 1.0.50 and newer:
     implementation "net.createmod.ponder:ponder-neoforge:${ponder_version}"
+
+    //implementation "com.github.Roboter007.ModernTabs:ModernTabs-neoforge:1.4.0"
 }
 
 
