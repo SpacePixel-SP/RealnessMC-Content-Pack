@@ -1,0 +1,10 @@
+Temporary Changelog for version 0.2.0-dev
+
+Additions:
+
+Fixes:
+
+Removals:
+
+    - Removed Temporary Debug Items from the Creative Tab
+    - Removed Automaticly generated Dirtblock Log Message

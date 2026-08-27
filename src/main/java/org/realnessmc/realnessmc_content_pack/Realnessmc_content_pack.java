@@ -61,8 +61,6 @@ public class Realnessmc_content_pack {
 
     // Creates a creative tab with the id "realnessmc_content_pack:example_tab" for the example item, that is placed after the combat tab
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder().title(Component.translatable("itemGroup.realnessmc_content_pack")).withTabsBefore(CreativeModeTabs.COMBAT).icon(() -> WHITE_MARBLE_BLOCK_ITEM.get().getDefaultInstance()).displayItems((parameters, output) -> {
-        output.accept(EXAMPLE_ITEM.get());
-        output.accept(EXAMPLE_BLOCK_ITEM.get());
         output.accept(WHITE_MARBLE_BLOCK_ITEM.get());
     }).build());
 
@@ -94,12 +92,6 @@ public class Realnessmc_content_pack {
     private void commonSetup(final FMLCommonSetupEvent event) {
         // Some common setup code
         LOGGER.info("RealnessMC CP Common Setup Fired ... Innitializing");
-
-        if (Config.logDirtBlock) LOGGER.info("DIRT BLOCK >> {}", BuiltInRegistries.BLOCK.getKey(Blocks.DIRT));
-
-        LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
-
-        Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
     }
 
     // Add the example block item to the building blocks tab
