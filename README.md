@@ -1,4 +1,8 @@
 # Official RealnessMC Content Pack
+
+[!CAUTION]
+The Mod is still in early Development! Many features are unfinished and might be broken!
+
 ## Disclaimer!
 **This mod is ment for use on the RealnessMC Roleplay Server**
 
