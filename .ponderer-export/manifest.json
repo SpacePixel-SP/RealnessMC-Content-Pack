@@ -1,0 +1,83 @@
+{
+  "version": 2,
+  "loader": "neoforge",
+  "modId": "realnessmc_content_pack",
+  "basePackage": "org.realnessmc.realnessmc_content_pack",
+  "generatedPackage": "org.realnessmc.realnessmc_content_pack.ponder.generated",
+  "scenes": {
+    "ponderer:chest": {
+      "sceneId": "ponderer:chest",
+      "sceneKey": "ponderer:chest",
+      "className": "org.realnessmc.realnessmc_content_pack.ponder.generated.scenes.GeneratedChest_f193b643",
+      "status": "COMPLETE",
+      "contentHash": "636491bb0ed1d0fc594781dca41d3f9010e5ba93a29a55ac808cc127b5089b41",
+      "javaFiles": [
+        "src/main/java/org/realnessmc/realnessmc_content_pack/ponder/generated/scenes/GeneratedChest_f193b643.java"
+      ],
+      "resourceFiles": [
+        "src/main/resources/assets/realnessmc_content_pack/ponder/generated/ponderer/basic.nbt"
+      ],
+      "langEntries": {
+        "en_us": {
+          "realnessmc_content_pack.ponder.chest.header": "Using the Chest",
+          "realnessmc_content_pack.ponder.chest.text_1": "The Chest can be used to store Items",
+          "realnessmc_content_pack.ponder.chest.text_2": "It can hold 27 Stacks of Items",
+          "realnessmc_content_pack.ponder.chest.text_3": "It can be opened by Rightclicking"
+        },
+        "zh_cn": {
+          "realnessmc_content_pack.ponder.chest.header": "场景 1"
+        }
+      }
+    },
+    "ponderer:ender_pearl": {
+      "sceneId": "ponderer:ender_pearl",
+      "sceneKey": "ponderer:ender_pearl",
+      "className": "org.realnessmc.realnessmc_content_pack.ponder.generated.scenes.GeneratedEnderPearl_9dff4aa5",
+      "status": "COMPLETE",
+      "contentHash": "25e775aa06252d421f20ecd0ba026ba614a3af8f3e47aeeed775fe20a38de606",
+      "javaFiles": [
+        "src/main/java/org/realnessmc/realnessmc_content_pack/ponder/generated/scenes/GeneratedEnderPearl_9dff4aa5.java"
+      ],
+      "resourceFiles": [
+        "src/main/resources/assets/realnessmc_content_pack/ponder/generated/ponderer/basic.nbt"
+      ],
+      "langEntries": {
+        "en_us": {
+          "realnessmc_content_pack.ponder.ender_pearl_scene_1.header": "Using the Enderpearl",
+          "realnessmc_content_pack.ponder.ender_pearl_scene_1.text_1": "This is an enderpearl",
+          "realnessmc_content_pack.ponder.ender_pearl_scene_1.text_2": "It can be thrown by rightclicking",
+          "realnessmc_content_pack.ponder.ender_pearl_scene_1.text_3": "When thrown it will teleport the Player to the Position where it Lands",
+          "realnessmc_content_pack.ponder.ender_pearl_s_2dbe1.header": "Obtaining the Enderpearl",
+          "realnessmc_content_pack.ponder.ender_pearl_s_2dbe1.text_1": "The Enderpearl can be obtained by killing an enderman"
+        },
+        "zh_cn": {
+          "realnessmc_content_pack.ponder.ender_pearl_scene_1.header": "场景 1"
+        }
+      }
+    },
+    "ponderer:white_marble_block": {
+      "sceneId": "ponderer:white_marble_block",
+      "sceneKey": "ponderer:white_marble_block",
+      "className": "org.realnessmc.realnessmc_content_pack.ponder.generated.scenes.GeneratedWhiteMarbleBlock_0dafe3e0",
+      "status": "COMPLETE",
+      "contentHash": "4483e637b49d65a5e485fbe57d649804e9038283c08ec6bbba565f64c72ef9e9",
+      "javaFiles": [
+        "src/main/java/org/realnessmc/realnessmc_content_pack/ponder/generated/scenes/GeneratedWhiteMarbleBlock_0dafe3e0.java"
+      ],
+      "resourceFiles": [
+        "src/main/resources/assets/realnessmc_content_pack/ponder/generated/ponderer/basic_s.nbt"
+      ],
+      "langEntries": {
+        "zh_cn": {
+          "realnessmc_content_pack.ponder.white_marble_block.header": "场景 1"
+        },
+        "en_us": {
+          "realnessmc_content_pack.ponder.white_marble_block.header": "General Information",
+          "realnessmc_content_pack.ponder.white_marble_block.text_1": "Marble is a rough \"Stone variant\"",
+          "realnessmc_content_pack.ponder.white_marble_block.text_2": "XXX",
+          "realnessmc_content_pack.ponder.white_marble_block.text_3": "They can be used to create Marble Floors"
+        }
+      }
+    }
+  }
+}

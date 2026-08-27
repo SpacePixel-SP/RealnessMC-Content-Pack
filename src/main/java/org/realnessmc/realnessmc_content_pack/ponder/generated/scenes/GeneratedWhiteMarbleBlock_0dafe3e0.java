@@ -1,0 +1,54 @@
+package org.realnessmc.realnessmc_content_pack.ponder.generated.scenes;
+
+import org.realnessmc.realnessmc_content_pack.ponder.generated.GeneratedPonderAttribution;
+import org.realnessmc.realnessmc_content_pack.ponder.generated.GeneratedPonderSupport;
+import net.createmod.ponder.api.registration.PonderSceneRegistrationHelper;
+import net.createmod.ponder.api.registration.PonderTagRegistrationHelper;
+import net.createmod.ponder.api.scene.SceneBuilder;
+import net.createmod.ponder.api.scene.SceneBuildingUtil;
+import net.minecraft.core.BlockPos;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.phys.Vec3;
+import java.util.Map;
+
+public final class GeneratedWhiteMarbleBlock_0dafe3e0 {
+    private GeneratedWhiteMarbleBlock_0dafe3e0() {
+    }
+
+    public static void register(PonderSceneRegistrationHelper<ResourceLocation> helper) {
+        ResourceLocation[] tags = new ResourceLocation[]{ResourceLocation.fromNamespaceAndPath("realnessmc_content_pack", "ponderer_exported")};
+        var multi = helper.forComponents(java.util.List.of(ResourceLocation.fromNamespaceAndPath("realnessmc_content_pack", "white_marble_block")));
+        multi.addStoryBoard(ResourceLocation.fromNamespaceAndPath("realnessmc_content_pack", "generated/ponderer/basic_s"), GeneratedWhiteMarbleBlock_0dafe3e0::storyboard$0, tags);
+    }
+
+    public static void registerTags(PonderTagRegistrationHelper<ResourceLocation> helper) {
+        ResourceLocation tag = GeneratedPonderAttribution.tag();
+        helper.addTagToComponent(ResourceLocation.fromNamespaceAndPath("realnessmc_content_pack", "white_marble_block"), tag);
+    }
+
+    private static void storyboard$0(SceneBuilder scene, SceneBuildingUtil util) {
+        scene.title("white_marble_block", "General Information");
+        GeneratedPonderSupport.Context context = new GeneratedPonderSupport.Context();
+        GeneratedPonderSupport.preScanBounds(scene, new BlockPos(0, 0, 0), new BlockPos(2, 1, 2));
+        scene.addKeyframe();
+        GeneratedPonderSupport.showStructure(scene, context, null, null, null, null);
+        scene.idle(20);
+        GeneratedPonderSupport.setBlock(scene, context, "realnessmc_content_pack:white_marble_block", null, new BlockPos(1, 1, 1), null, null, false, false, "down", 20, 1, false, null, "down");
+        scene.idle(40);
+        GeneratedPonderSupport.showText(scene, "Marble is a rough \"Stone variant\"", new Vec3(1.0, 1.5, 1.5), 60, "white", true);
+        scene.idle(80);
+        scene.addKeyframe();
+        GeneratedPonderSupport.showText(scene, "XXX", new Vec3(1.0, 1.5, 1.5), 60, "white", true);
+        scene.idle(80);
+        GeneratedPonderSupport.showControls(scene, new Vec3(1.5, 2.0, 1.5), "down", 40, "left", null, null, false, false);
+        scene.idle(40);
+        scene.addKeyframe();
+        GeneratedPonderSupport.destroyBlock(scene, context, new BlockPos(1, 1, 1), null, null);
+        scene.idle(20);
+        GeneratedPonderSupport.setBlock(scene, context, "realnessmc_content_pack:white_marble_block", null, new BlockPos(2, 0, 2), new BlockPos(0, 0, 0), null, false, false, "south", 20, 1, false, null, "down");
+        scene.idle(20);
+        GeneratedPonderSupport.showText(scene, "They can be used to create Marble Floors", new Vec3(0.5, 0.0, 1.5), 60, "white", true);
+        scene.idle(80);
+    }
+
+}

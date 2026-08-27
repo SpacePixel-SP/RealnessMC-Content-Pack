@@ -1,0 +1,2 @@
+/ponderer list
+/time set noon
