@@ -1,13 +1,18 @@
 {
   "itemGroup.realnessmc_content_pack": "RealnessMC Content Pack",
-  "block.realnessmc_content_pack.example_block": "Example Block",
-  "item.realnessmc_content_pack.example_item": "Example Item",
+
+
   "block.realnessmc_content_pack.white_marble_block": "White Marble Block",
   "block.realnessmc_content_pack.blue_marble_block": "Blue Marble Block",
-  "realnessmc_content_pack.ponder.white_marble_block.header": "General Information",
-  "realnessmc_content_pack.ponder.white_marble_block.text_1": "Marble is a rough \"Stone variant\"",
-  "realnessmc_content_pack.ponder.white_marble_block.text_2": "XXX",
-  "realnessmc_content_pack.ponder.white_marble_block.text_3": "They can be used to create Marble Floors",
+  "block.realnessmc_content_pack.red_marble_block": "Red Marble Block",
+
+
+
+  "realnessmc_content_pack.ponder.white_marble_block_s_d421b.header": "Marble Variants",
+  "realnessmc_content_pack.ponder.white_marble_block_scene_1.header": "General Information",
+  "realnessmc_content_pack.ponder.white_marble_block_scene_1.text_1": "Marble is a natural metamorphic rock",
+  "realnessmc_content_pack.ponder.white_marble_block_scene_1.text_2": "It is composed mostly of recrystallized calcite, aragonite, or dolomite crystals.",
+  "realnessmc_content_pack.ponder.white_marble_block_scene_1.text_3": "They can be used to create Marble Floors",
   "realnessmc_content_pack.ponder.tag.ponderer_exported": "The Ponderer...",
   "realnessmc_content_pack.ponder.tag.ponderer_exported.description": "This mod\u0027s Ponder scenes were created and exported with The Ponderer. Learn more: https://modrinth.com/mod/the-ponderer"
 }

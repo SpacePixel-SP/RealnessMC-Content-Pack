@@ -1,20 +1,20 @@
-Temporary Changelog for version 0.1.1-dev
+Temporary Changelog for version 0.2.0-dev
 
 Additions:
 
     - Added More Marble Variations:
         - Blue Marble -- TODO: Texture - Jonas
-        - TODO: Red Marble
+        - Red Marble -- TODO: Texture - Jonas
     - TODO: Added a new Scene to the Marble Ponder to Include new Variants
 
 Fixes:
 
     - Fixed some spelling mistakes
-    - TODO: Fixed Marble Ponder Placeholder text "XXX"
 
 Reworks:
 
     - Reworked internal Code setup to improve performance
+    - Reworked Marble Ponder with better Facts about marble
 
 Removals:
 

@@ -60,22 +60,24 @@
       "sceneKey": "ponderer:white_marble_block",
       "className": "org.realnessmc.realnessmc_content_pack.ponder.generated.scenes.GeneratedWhiteMarbleBlock_0dafe3e0",
       "status": "COMPLETE",
-      "contentHash": "4483e637b49d65a5e485fbe57d649804e9038283c08ec6bbba565f64c72ef9e9",
+      "contentHash": "70284321c2ab8899a552601a68943041226fbe876c3934f61516ea5b99f5c182",
       "javaFiles": [
         "src/main/java/org/realnessmc/realnessmc_content_pack/ponder/generated/scenes/GeneratedWhiteMarbleBlock_0dafe3e0.java"
       ],
       "resourceFiles": [
-        "src/main/resources/assets/realnessmc_content_pack/ponder/generated/ponderer/basic_s.nbt"
+        "src/main/resources/assets/realnessmc_content_pack/ponder/generated/ponderer/basic_s.nbt",
+        "src/main/resources/assets/realnessmc_content_pack/ponder/generated/ponderer/basic.nbt"
       ],
       "langEntries": {
         "zh_cn": {
-          "realnessmc_content_pack.ponder.white_marble_block.header": "场景 1"
+          "realnessmc_content_pack.ponder.white_marble_block_scene_1.header": "场景 1"
         },
         "en_us": {
-          "realnessmc_content_pack.ponder.white_marble_block.header": "General Information",
-          "realnessmc_content_pack.ponder.white_marble_block.text_1": "Marble is a rough \"Stone variant\"",
-          "realnessmc_content_pack.ponder.white_marble_block.text_2": "XXX",
-          "realnessmc_content_pack.ponder.white_marble_block.text_3": "They can be used to create Marble Floors"
+          "realnessmc_content_pack.ponder.white_marble_block_scene_1.header": "General Information",
+          "realnessmc_content_pack.ponder.white_marble_block_scene_1.text_1": "Marble is a natural metamorphic rock",
+          "realnessmc_content_pack.ponder.white_marble_block_scene_1.text_2": "It is composed mostly of recrystallized calcite, aragonite, or dolomite crystals.",
+          "realnessmc_content_pack.ponder.white_marble_block_scene_1.text_3": "They can be used to create Marble Floors",
+          "realnessmc_content_pack.ponder.white_marble_block_s_d421b.header": "Marble Variants"
         }
       }
     }

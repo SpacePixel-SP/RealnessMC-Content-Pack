@@ -13,13 +13,14 @@
       "sceneKey": "ponderer:white_marble_block",
       "className": "GeneratedWhiteMarbleBlock_0dafe3e0",
       "status": "COMPLETE",
-      "replaced": false,
-      "exportedSegments": 1,
+      "replaced": true,
+      "exportedSegments": 2,
       "blankSegments": 0,
       "omittedSteps": 0,
       "ownedFiles": [
         "src/main/java/org/realnessmc/realnessmc_content_pack/ponder/generated/scenes/GeneratedWhiteMarbleBlock_0dafe3e0.java",
-        "src/main/resources/assets/realnessmc_content_pack/ponder/generated/ponderer/basic_s.nbt"
+        "src/main/resources/assets/realnessmc_content_pack/ponder/generated/ponderer/basic_s.nbt",
+        "src/main/resources/assets/realnessmc_content_pack/ponder/generated/ponderer/basic.nbt"
       ],
       "messages": []
     }
