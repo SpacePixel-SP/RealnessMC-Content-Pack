@@ -7,6 +7,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.config.ModConfigEvent;
 import net.neoforged.neoforge.common.ModConfigSpec;
+import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 import java.util.List;
 import java.util.Set;
@@ -46,5 +47,10 @@ public class Config {
 
         // convert the list of strings into a set of items
         items = ITEM_STRINGS.get().stream().map(itemName -> BuiltInRegistries.ITEM.get(ResourceLocation.parse(itemName))).collect(Collectors.toSet());
+    }
+
+    @SubscribeEvent
+    public static void onServerStarting(ServerStartingEvent event) {
+        // This runs when the server starts up
     }
 }
