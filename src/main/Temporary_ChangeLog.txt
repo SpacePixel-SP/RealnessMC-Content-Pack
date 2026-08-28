@@ -3,13 +3,14 @@ Temporary Changelog for version 0.1.1-dev
 Additions:
 
     - Added More Marble Variations:
-        - Blue Marble
+        - Blue Marble -- TODO: Texture - Jonas
         - TODO: Red Marble
     - TODO: Added a new Scene to the Marble Ponder to Include new Variants
 
 Fixes:
 
-
+    - Fixed some spelling mistakes
+    - TODO: Fixed Marble Ponder Placeholder text "XXX"
 
 Reworks:
 
@@ -18,4 +19,4 @@ Reworks:
 Removals:
 
     - Removed Temporary Debug Items from the Creative Tab
-    - Removed Automaticly generated Dirtblock Log Message
+    - Removed Automatically generated Dirt block Log Message

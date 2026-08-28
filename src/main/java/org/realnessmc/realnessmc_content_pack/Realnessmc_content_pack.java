@@ -93,7 +93,7 @@ public class Realnessmc_content_pack {
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         // Some common setup code
-        LOGGER.info("RealnessMC CP Common Setup Fired ... Innitializing");
+        LOGGER.info("RealnessMC CP Common Setup Fired ... Initializing");
     }
 
     // Add the example block item to the building blocks tab
