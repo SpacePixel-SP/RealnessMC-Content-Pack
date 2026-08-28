@@ -1,7 +1,7 @@
 {
   "id": "ponderer:white_marble_block",
   "items": [
-    "realnessmc_content_pack:white_marble_block"
+    "realnessmc_content_pack:*_marble_block"
   ],
   "title": {
     "zh_cn": "新场景 - white_marble_block",
