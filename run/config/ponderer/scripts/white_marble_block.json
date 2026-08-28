@@ -1,0 +1,268 @@
+{
+  "id": "ponderer:white_marble_block",
+  "items": [
+    "realnessmc_content_pack:white_marble_block"
+  ],
+  "title": {
+    "zh_cn": "新场景 - white_marble_block",
+    "en_us": "Marble"
+  },
+  "structures": [
+    "ponderer:basic"
+  ],
+  "tags": [],
+  "editable": true,
+  "scenes": [
+    {
+      "id": "general_information",
+      "title": {
+        "zh_cn": "场景 1",
+        "en_us": "General Information"
+      },
+      "steps": [
+        {
+          "type": "show_structure",
+          "structure": "ponderer:basic_s",
+          "attachKeyFrame": true
+        },
+        {
+          "type": "set_block",
+          "direction": "down",
+          "block": "realnessmc_content_pack:white_marble_block",
+          "blockPos": [
+            1,
+            1,
+            1
+          ],
+          "spawnParticles": false,
+          "immediateDisplay": false,
+          "smartDisplay": true,
+          "entranceAnimation": "simultaneous",
+          "entranceDuration": 20,
+          "entranceInterval": 1
+        },
+        {
+          "type": "idle",
+          "duration": 40
+        },
+        {
+          "type": "text",
+          "duration": 120,
+          "text": "Marble is a natural metamorphic rock formed when limestone undergoes extreme heat and pressure over millions of years",
+          "point": [
+            1.0,
+            1.5,
+            1.5
+          ],
+          "color": "white",
+          "placeNearTarget": true
+        },
+        {
+          "type": "idle",
+          "duration": 140
+        },
+        {
+          "type": "text",
+          "duration": 100,
+          "text": "It is made mostly of calcite, aragonite, and dolomite crystals",
+          "point": [
+            1.0,
+            1.5,
+            1.5
+          ],
+          "color": "white",
+          "placeNearTarget": true,
+          "attachKeyFrame": true
+        },
+        {
+          "type": "idle",
+          "duration": 120
+        }
+      ]
+    },
+    {
+      "id": "variants",
+      "title": "Variants",
+      "steps": [
+        {
+          "type": "show_structure",
+          "structure": "ponderer:basic",
+          "attachKeyFrame": true
+        },
+        {
+          "type": "idle",
+          "duration": 20
+        },
+        {
+          "type": "set_block",
+          "direction": "down",
+          "block": "realnessmc_content_pack:white_marble_block",
+          "blockPos": [
+            2,
+            1,
+            2
+          ],
+          "spawnParticles": false,
+          "immediateDisplay": false,
+          "smartDisplay": false,
+          "entranceAnimation": "south",
+          "entranceDuration": 20,
+          "entranceInterval": 1
+        },
+        {
+          "type": "idle",
+          "duration": 20
+        },
+        {
+          "type": "set_block",
+          "direction": "down",
+          "block": "realnessmc_content_pack:blue_marble_block",
+          "blockPos": [
+            3,
+            1,
+            2
+          ],
+          "spawnParticles": false,
+          "immediateDisplay": false,
+          "smartDisplay": false,
+          "entranceAnimation": "south",
+          "entranceDuration": 20,
+          "entranceInterval": 1
+        },
+        {
+          "type": "idle",
+          "duration": 20
+        },
+        {
+          "type": "set_block",
+          "direction": "down",
+          "block": "realnessmc_content_pack:red_marble_block",
+          "blockPos": [
+            1,
+            1,
+            2
+          ],
+          "spawnParticles": false,
+          "immediateDisplay": false,
+          "smartDisplay": false,
+          "entranceAnimation": "south",
+          "entranceDuration": 20,
+          "entranceInterval": 1
+        },
+        {
+          "type": "idle",
+          "duration": 40
+        },
+        {
+          "type": "text",
+          "duration": 60,
+          "text": "There are more variants in different colors",
+          "point": [
+            2.5,
+            2.0,
+            2.5
+          ],
+          "color": "white",
+          "placeNearTarget": true,
+          "attachKeyFrame": true
+        },
+        {
+          "type": "idle",
+          "duration": 80
+        },
+        {
+          "type": "text",
+          "duration": 80,
+          "text": "White Marble",
+          "point": [
+            2.5,
+            1.6,
+            2.5
+          ],
+          "color": "white",
+          "placeNearTarget": true,
+          "attachKeyFrame": true
+        },
+        {
+          "type": "text",
+          "duration": 80,
+          "text": "Blue Marble",
+          "point": [
+            3.5,
+            2.0,
+            2.5
+          ],
+          "color": "blue",
+          "placeNearTarget": true
+        },
+        {
+          "type": "text",
+          "duration": 80,
+          "text": "Red Marble",
+          "point": [
+            1.0,
+            1.5,
+            2.5
+          ],
+          "color": "red",
+          "placeNearTarget": true
+        },
+        {
+          "type": "idle",
+          "duration": 100
+        }
+      ]
+    },
+    {
+      "id": "marble_in_use",
+      "title": "Marble in Use",
+      "steps": [
+        {
+          "type": "show_structure",
+          "structure": "ponderer:basic_s",
+          "attachKeyFrame": true
+        },
+        {
+          "type": "idle",
+          "duration": 20
+        },
+        {
+          "type": "set_block",
+          "direction": "down",
+          "block": "realnessmc_content_pack:white_marble_block",
+          "blockPos": [
+            1,
+            1,
+            1
+          ],
+          "spawnParticles": false,
+          "immediateDisplay": false,
+          "smartDisplay": false,
+          "entranceAnimation": "simultaneous",
+          "entranceDuration": 20,
+          "entranceInterval": 1
+        },
+        {
+          "type": "idle",
+          "duration": 20
+        },
+        {
+          "type": "text",
+          "duration": 100,
+          "text": "Marble can be used to show wealth or just to build beautiful Buildings",
+          "point": [
+            1.0,
+            1.5,
+            1.5
+          ],
+          "color": "output",
+          "placeNearTarget": true
+        },
+        {
+          "type": "idle",
+          "duration": 120
+        }
+      ]
+    }
+  ]
+}

@@ -1,18 +1,18 @@
 {
   "itemGroup.realnessmc_content_pack": "RealnessMC Content Pack",
-
-
   "block.realnessmc_content_pack.white_marble_block": "White Marble Block",
   "block.realnessmc_content_pack.blue_marble_block": "Blue Marble Block",
   "block.realnessmc_content_pack.red_marble_block": "Red Marble Block",
-
-
-
-  "realnessmc_content_pack.ponder.white_marble_block_s_d421b.header": "Marble Variants",
-  "realnessmc_content_pack.ponder.white_marble_block_scene_1.header": "General Information",
-  "realnessmc_content_pack.ponder.white_marble_block_scene_1.text_1": "Marble is a natural metamorphic rock",
-  "realnessmc_content_pack.ponder.white_marble_block_scene_1.text_2": "It is composed mostly of recrystallized calcite, aragonite, or dolomite crystals.",
-  "realnessmc_content_pack.ponder.white_marble_block_scene_1.text_3": "They can be used to create Marble Floors",
+  "realnessmc_content_pack.ponder.white_marble_block_general_information.header": "General Information",
+  "realnessmc_content_pack.ponder.white_marble_block_general_information.text_1": "Marble is a natural metamorphic rock formed when limestone undergoes extreme heat and pressure over millions of years",
+  "realnessmc_content_pack.ponder.white_marble_block_general_information.text_2": "It is made mostly of calcite, aragonite, and dolomite crystals",
+  "realnessmc_content_pack.ponder.white_marble_block_marble_in_use.header": "Marble in Use",
+  "realnessmc_content_pack.ponder.white_marble_block_marble_in_use.text_1": "Marble can be used to show wealth or just to build beautiful Buildings",
+  "realnessmc_content_pack.ponder.white_marble_block_variants.header": "Variants",
+  "realnessmc_content_pack.ponder.white_marble_block_variants.text_1": "There are more variants in different colors",
+  "realnessmc_content_pack.ponder.white_marble_block_variants.text_2": "White Marble",
+  "realnessmc_content_pack.ponder.white_marble_block_variants.text_3": "Blue Marble",
+  "realnessmc_content_pack.ponder.white_marble_block_variants.text_4": "Red Marble",
   "realnessmc_content_pack.ponder.tag.ponderer_exported": "The Ponderer...",
   "realnessmc_content_pack.ponder.tag.ponderer_exported.description": "This mod\u0027s Ponder scenes were created and exported with The Ponderer. Learn more: https://modrinth.com/mod/the-ponderer"
 }

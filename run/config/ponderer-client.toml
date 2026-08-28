@@ -4,7 +4,7 @@
 blueprintCarrierItem = "minecraft:paper"
 #Allow editing scenes that have their 'editable' flag disabled.
 #This is intended for pack authors and advanced maintenance.
-developerMode = false
+developerMode = true
 #Default editable value for newly created scenes and scenes without an explicit editable flag.
 defaultEditable = true
 

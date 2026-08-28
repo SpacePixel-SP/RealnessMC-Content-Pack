@@ -5,7 +5,7 @@ Additions:
     - Added More Marble Variations:
         - Blue Marble -- TODO: Texture - Jonas
         - Red Marble -- TODO: Texture - Jonas
-    - TODO: Added a new Scene to the Marble Ponder to Include new Variants
+    - Added a new Scene to the Marble Ponder to Include new Variants
 
 Fixes:
 
@@ -14,7 +14,7 @@ Fixes:
 Reworks:
 
     - Reworked internal Code setup to improve performance
-    - Reworked Marble Ponder with better Facts about marble
+    - Reworked the entire Marble Ponder with better Facts about marble
 
 Removals:
 

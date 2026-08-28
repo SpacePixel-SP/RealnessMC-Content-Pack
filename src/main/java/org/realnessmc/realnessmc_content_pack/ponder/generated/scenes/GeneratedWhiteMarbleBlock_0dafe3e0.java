@@ -22,6 +22,7 @@ public final class GeneratedWhiteMarbleBlock_0dafe3e0 {
         var multi = helper.forComponents(java.util.List.of(ResourceLocation.fromNamespaceAndPath("realnessmc_content_pack", "white_marble_block")));
         multi.addStoryBoard(ResourceLocation.fromNamespaceAndPath("realnessmc_content_pack", "generated/ponderer/basic_s"), GeneratedWhiteMarbleBlock_0dafe3e0::storyboard$0, tags);
         multi.addStoryBoard(ResourceLocation.fromNamespaceAndPath("realnessmc_content_pack", "generated/ponderer/basic"), GeneratedWhiteMarbleBlock_0dafe3e0::storyboard$1, tags);
+        multi.addStoryBoard(ResourceLocation.fromNamespaceAndPath("realnessmc_content_pack", "generated/ponderer/basic_s"), GeneratedWhiteMarbleBlock_0dafe3e0::storyboard$2, tags);
     }
 
     public static void registerTags(PonderTagRegistrationHelper<ResourceLocation> helper) {
@@ -30,35 +31,54 @@ public final class GeneratedWhiteMarbleBlock_0dafe3e0 {
     }
 
     private static void storyboard$0(SceneBuilder scene, SceneBuildingUtil util) {
-        scene.title("white_marble_block_scene_1", "General Information");
+        scene.title("white_marble_block_general_information", "General Information");
         GeneratedPonderSupport.Context context = new GeneratedPonderSupport.Context();
-        GeneratedPonderSupport.preScanBounds(scene, new BlockPos(0, 0, 0), new BlockPos(2, 1, 2));
+        GeneratedPonderSupport.preScanBounds(scene, new BlockPos(1, 1, 1), new BlockPos(1, 1, 1));
         scene.addKeyframe();
         GeneratedPonderSupport.showStructure(scene, context, null, null, null, null);
-        scene.idle(20);
-        GeneratedPonderSupport.setBlock(scene, context, "realnessmc_content_pack:white_marble_block", null, new BlockPos(1, 1, 1), null, null, false, false, "down", 20, 1, false, null, "down");
+        GeneratedPonderSupport.setBlock(scene, context, "realnessmc_content_pack:white_marble_block", null, new BlockPos(1, 1, 1), null, null, false, false, "simultaneous", 20, 1, true, null, "down");
         scene.idle(40);
-        GeneratedPonderSupport.showText(scene, "Marble is a natural metamorphic rock", new Vec3(1.0, 1.5, 1.5), 100, "white", true);
-        scene.idle(120);
-        scene.addKeyframe();
-        GeneratedPonderSupport.showText(scene, "It is composed mostly of recrystallized calcite, aragonite, or dolomite crystals.", new Vec3(1.0, 1.5, 1.5), 120, "white", true);
+        GeneratedPonderSupport.showText(scene, "Marble is a natural metamorphic rock formed when limestone undergoes extreme heat and pressure over millions of years", new Vec3(1.0, 1.5, 1.5), 120, "white", true);
         scene.idle(140);
-        GeneratedPonderSupport.showControls(scene, new Vec3(1.5, 2.0, 1.5), "down", 40, "left", null, null, false, false);
-        scene.idle(40);
         scene.addKeyframe();
-        GeneratedPonderSupport.destroyBlock(scene, context, new BlockPos(1, 1, 1), null, null);
-        scene.idle(20);
-        GeneratedPonderSupport.setBlock(scene, context, "realnessmc_content_pack:white_marble_block", null, new BlockPos(2, 0, 2), new BlockPos(0, 0, 0), null, false, false, "south", 20, 1, false, null, "down");
-        scene.idle(20);
-        GeneratedPonderSupport.showText(scene, "They can be used to create Marble Floors", new Vec3(0.5, 0.0, 1.5), 60, "white", true);
-        scene.idle(80);
+        GeneratedPonderSupport.showText(scene, "It is made mostly of calcite, aragonite, and dolomite crystals", new Vec3(1.0, 1.5, 1.5), 100, "white", true);
+        scene.idle(120);
     }
 
     private static void storyboard$1(SceneBuilder scene, SceneBuildingUtil util) {
-        scene.title("white_marble_block_s_d421b", "Marble Variants");
+        scene.title("white_marble_block_variants", "Variants");
         GeneratedPonderSupport.Context context = new GeneratedPonderSupport.Context();
+        GeneratedPonderSupport.preScanBounds(scene, new BlockPos(1, 1, 2), new BlockPos(3, 1, 2));
+        scene.addKeyframe();
         GeneratedPonderSupport.showStructure(scene, context, null, null, null, null);
         scene.idle(20);
+        GeneratedPonderSupport.setBlock(scene, context, "realnessmc_content_pack:white_marble_block", null, new BlockPos(2, 1, 2), null, null, false, false, "south", 20, 1, false, null, "down");
+        scene.idle(20);
+        GeneratedPonderSupport.setBlock(scene, context, "realnessmc_content_pack:blue_marble_block", null, new BlockPos(3, 1, 2), null, null, false, false, "south", 20, 1, false, null, "down");
+        scene.idle(20);
+        GeneratedPonderSupport.setBlock(scene, context, "realnessmc_content_pack:red_marble_block", null, new BlockPos(1, 1, 2), null, null, false, false, "south", 20, 1, false, null, "down");
+        scene.idle(40);
+        scene.addKeyframe();
+        GeneratedPonderSupport.showText(scene, "There are more variants in different colors", new Vec3(2.5, 2.0, 2.5), 60, "white", true);
+        scene.idle(80);
+        scene.addKeyframe();
+        GeneratedPonderSupport.showText(scene, "White Marble", new Vec3(2.5, 1.6, 2.5), 80, "white", true);
+        GeneratedPonderSupport.showText(scene, "Blue Marble", new Vec3(3.5, 2.0, 2.5), 80, "blue", true);
+        GeneratedPonderSupport.showText(scene, "Red Marble", new Vec3(1.0, 1.5, 2.5), 80, "red", true);
+        scene.idle(100);
+    }
+
+    private static void storyboard$2(SceneBuilder scene, SceneBuildingUtil util) {
+        scene.title("white_marble_block_marble_in_use", "Marble in Use");
+        GeneratedPonderSupport.Context context = new GeneratedPonderSupport.Context();
+        GeneratedPonderSupport.preScanBounds(scene, new BlockPos(1, 1, 1), new BlockPos(1, 1, 1));
+        scene.addKeyframe();
+        GeneratedPonderSupport.showStructure(scene, context, null, null, null, null);
+        scene.idle(20);
+        GeneratedPonderSupport.setBlock(scene, context, "realnessmc_content_pack:white_marble_block", null, new BlockPos(1, 1, 1), null, null, false, false, "simultaneous", 20, 1, false, null, "down");
+        scene.idle(20);
+        GeneratedPonderSupport.showText(scene, "Marble can be used to show wealth or just to build beautiful Buildings", new Vec3(1.0, 1.5, 1.5), 100, "output", true);
+        scene.idle(120);
     }
 
 }
