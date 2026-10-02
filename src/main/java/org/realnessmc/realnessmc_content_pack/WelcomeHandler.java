@@ -17,8 +17,14 @@ public class WelcomeHandler {
         }
 
         if (event.getEntity() instanceof ServerPlayer player) {
-            Component welcomeMessage = Component.literal("§aWelcome to the server, " + player.getScoreboardName() + "!");
+            Component welcomeMessage = Component.literal("§aWelcome to the RealnessMC Server, " + player.getScoreboardName() + "!");
             player.sendSystemMessage(welcomeMessage);
         }
+
+        if (event.getEntity() instanceof ServerPlayer player) {
+            Component modMessage = Component.literal("§9RealnessMC Content Pack was Loaded §aSuccessfully!");
+            player.sendSystemMessage(modMessage);
+        }
+
     }
 }
