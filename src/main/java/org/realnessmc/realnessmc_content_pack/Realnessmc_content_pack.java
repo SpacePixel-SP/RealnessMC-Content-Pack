@@ -61,6 +61,18 @@ public class Realnessmc_content_pack {
     public static final DeferredBlock<Block> RED_MARBLE_BLOCK = BLOCKS.registerSimpleBlock("red_marble_block", BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_RED).sound(SoundType.CALCITE));
     public static final DeferredItem<BlockItem> RED_MARBLE_BLOCK_ITEM = ITEMS.registerSimpleBlockItem("red_marble_block", RED_MARBLE_BLOCK);
 
+
+    //MUSIC DISKS
+
+    public static final DeferredHolder<Item, Item> CANTINA_BAND_DISK =
+            ITEMS.register("cantina_band_disk", () -> new Item(
+                    new Item.Properties()
+                            .stacksTo(1) // Music discs do not stack
+                            .jukeboxPlayable(ModJukeboxSongs.CANTINA_BAND_KEY) // Links to the JukeboxSong JSON
+            ));
+
+
+
     // Creates a new food item with the id "realnessmc_content_pack:example_id", nutrition 1 and saturation 2
     public static final DeferredItem<Item> EXAMPLE_ITEM = ITEMS.registerSimpleItem("example_item", new Item.Properties().food(new FoodProperties.Builder().alwaysEdible().nutrition(1).saturationModifier(2f).build()));
 
@@ -69,6 +81,7 @@ public class Realnessmc_content_pack {
         output.accept(WHITE_MARBLE_BLOCK_ITEM.get());
         output.accept(BLUE_MARBLE_BLOCK_ITEM.get());
         output.accept(RED_MARBLE_BLOCK_ITEM.get());
+        output.accept(CANTINA_BAND_DISK.get());
     }).build());
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
@@ -92,6 +105,10 @@ public class Realnessmc_content_pack {
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
+
+        ModSounds.SOUND_EVENTS.register(modEventBus);
+
+
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);

@@ -19,7 +19,8 @@
   "config.realnessmc_content_pack.option.enableWelcomeMessage": "Enable Welcome Message",
   "config.realnessmc_content_pack.option.enableWelcomeMessage.tooltip": "When enabled, a helpful green greeting message will print directly to the local player's chat feed upon entering a server or world.",
 
-
+  "item.realnessmc_content_pack.cantina_band_disk": "Cantina Band Disc",
+  "jukebox_song.realnessmc_content_pack.cantina_band": "John Williams - Cantina Band",
 
   "realnessmc_content_pack.ponder.tag.ponderer_exported.description": "This mod\u0027s Ponder scenes were created and exported with The Ponderer. Learn more: https://modrinth.com/mod/the-ponderer"
 }

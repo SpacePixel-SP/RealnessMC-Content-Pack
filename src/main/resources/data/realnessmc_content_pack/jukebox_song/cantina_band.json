@@ -1,0 +1,8 @@
+{
+  "sound_event": "realnessmc_content_pack:cantina_band",
+  "description": {
+    "translate": "jukebox_song.realnessmc_content_pack.cantina_band"
+  },
+  "length_in_seconds": 164.0,
+  "comparator_output": 15
+}

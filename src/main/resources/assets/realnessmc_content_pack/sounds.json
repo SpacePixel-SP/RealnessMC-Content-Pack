@@ -1,0 +1,11 @@
+{
+  "cantina_band": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "realnessmc_content_pack:cantina_band_file",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,2 +1,3 @@
 /ponderer list
 /time set noon
+/give @a realnessmc_content_pack:cantina_band_disk
