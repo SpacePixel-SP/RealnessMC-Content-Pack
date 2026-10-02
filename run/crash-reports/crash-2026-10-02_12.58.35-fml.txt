@@ -1,0 +1,114 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 2026-10-02 12:58:35
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.config.ConfigTracker.trackConfig(ConfigTracker.java:111) ~[loader-4.0.43.jar%23146!/:4.0] {}
+-- Mod loading issue for: realnessmc_content_pack --
+Details:
+	Mod file: /C:/Users/laure/IdeaProjects/RealnessMC-Content-Pack/build/classes/java/main/
+	Failure message: RealnessMC Content Pack (realnessmc_content_pack) has failed to load correctly
+		java.lang.RuntimeException: Detected config file conflict on realnessmc_content_pack-common.toml from realnessmc_content_pack (already registered by realnessmc_content_pack)
+	Mod version: 0.2.0-dev
+	Mod issues URL: <No issues URL found>
+	Exception message: java.lang.RuntimeException: Detected config file conflict on realnessmc_content_pack-common.toml from realnessmc_content_pack (already registered by realnessmc_content_pack)
+Stacktrace:
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.config.ConfigTracker.trackConfig(ConfigTracker.java:111) ~[loader-4.0.43.jar%23146!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.config.ConfigTracker.registerConfig(ConfigTracker.java:92) ~[loader-4.0.43.jar%23146!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.config.ConfigTracker.registerConfig(ConfigTracker.java:79) ~[loader-4.0.43.jar%23146!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.ModContainer.registerConfig(ModContainer.java:109) ~[loader-4.0.43.jar%23146!/:4.0] {}
+	at TRANSFORMER/realnessmc_content_pack@0.2.0-dev/org.realnessmc.realnessmc_content_pack.Realnessmc_content_pack.<init>(Realnessmc_content_pack.java:96) ~[%23193!/:?] {re:classloading}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?] {}
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?] {}
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:122) ~[loader-4.0.43.jar%23146!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.ModLoader.lambda$constructMods$3(ModLoader.java:153) ~[loader-4.0.43.jar%23146!/:4.0] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$7(ModLoader.java:231) ~[loader-4.0.43.jar%23146!/:4.0] {re:mixin}
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?] {re:mixin}
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.8, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 226540888 bytes (216 MiB) / 557842432 bytes (532 MiB) up to 8350859264 bytes (7964 MiB)
+	CPUs: 24
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 9 7900X 12-Core Processor            
+	Identifier: AuthenticAMD Family 25 Model 97 Stepping 2
+	Microarchitecture: Zen 3
+	Frequency (GHz): 4.70
+	Number of physical packages: 1
+	Number of physical CPUs: 12
+	Number of logical CPUs: 24
+	Graphics card #0 name: NVIDIA GeForce RTX 5060 Ti
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 16311.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.16.1692
+	Graphics card #1 name: AMD Radeon(TM) Graphics
+	Graphics card #1 vendor: Advanced Micro Devices, Inc.
+	Graphics card #1 VRAM (MiB): 512.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.13066.12
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 4.80
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MiB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 4.80
+	Memory slot #1 type: Unknown
+	Virtual memory max (MiB): 64617.49
+	Virtual memory used (MiB): 31832.95
+	Swap memory total (MiB): 32768.00
+	Swap memory used (MiB): 154.49
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 204975.39, total: 748966.75
+	Space in storage for workdir (MiB): available: 204975.39, total: 748966.75
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.43.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.43.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.43.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		flywheel-neoforge-1.21.1-1.0.4.jar                |Flywheel                      |flywheel                      |1.0.4               |Manifest: NOSIGNATURE
+		neoforge-21.1.248.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.248.jar                             |NeoForge                      |neoforge                      |21.1.248            |Manifest: NOSIGNATURE
+		ponder-neoforge-1.0.81+mc1.21.1.jar               |Ponder                        |ponder                        |1.0.81+mc1.21.1     |Manifest: NOSIGNATURE
+		ponderer-1.21.1-neoforge-1.10.6.1.jar             |Ponderer                      |ponderer                      |1.10.6.1            |Manifest: NOSIGNATURE
+		main                                              |RealnessMC Content Pack       |realnessmc_content_pack       |0.2.0-dev           |Manifest: NOSIGNATURE
+	Crash Report UUID: ef1efb80-161c-49b7-b686-a2ca04264e26
+	FML: 4.0.43
+	NeoForge: 21.1.248
+	Flywheel Backend: flywheel:off
