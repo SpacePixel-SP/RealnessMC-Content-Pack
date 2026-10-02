@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 public class Config {
     private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
 
-
+    public static final String MOD_VERSION = "v0.3.0";
 
 
     public static final ModConfigSpec.BooleanValue ENABLE_WELCOME_MESSAGE;

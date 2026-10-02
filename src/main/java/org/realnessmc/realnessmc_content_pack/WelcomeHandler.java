@@ -23,7 +23,9 @@ public class WelcomeHandler {
 
         if (event.getEntity() instanceof ServerPlayer player) {
             Component modMessage = Component.literal("§9RealnessMC Content Pack was Loaded §aSuccessfully!");
+            Component modVersion = Component.literal("§9Version: "+ Config.MOD_VERSION);
             player.sendSystemMessage(modMessage);
+            player.sendSystemMessage(modVersion);
         }
 
     }
